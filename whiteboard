@@ -11,11 +11,19 @@ Choose an Effect
   GameObjects
   Transforms
   MovieTextures
-  
-  
+  ---
+  ¿F
   What if we could determine a song's RPM, then find another music video with that RPM, and sync them. So it's a music video warp.
+  ---
+Challenge: No Daydream emulator, testing live is more time consuming due to build and rebuild. Unless - there's a way to live preview
+---
   
   
-  
-  
- 
+MVP:
+•void start loadClip
+•onLoadClip: play local audio clip from Assets folder
+•get audioClip.frequency
+•tie frequency to different number
+
+Version 1:
+tbd
